@@ -5,6 +5,6 @@ import br.com.alura.codechella.domain.entities.Usuario;
 public class CriarUsuarioUseCase {
 
     public Usuario execute() {
-
+        return new Usuario();
     }
 }
